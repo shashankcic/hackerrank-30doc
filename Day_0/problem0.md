@@ -1,4 +1,4 @@
-# Day 0
+# Day 0: Hello, World.
 
 ## Objective 
 
