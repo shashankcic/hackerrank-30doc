@@ -54,7 +54,9 @@ Not Weird
 ## Explanation
 
 Sample Case 0: **_n_** **= 3** 
+
 **_n_** is odd and odd numbers are weird, so we print ```Weird```.
 
 Sample Case 1:  **_n_** **= 24**
+
 **_n_** **> 20** and **_n_** is even, so it isn't weird. Thus, we print ```Not Weird```.
