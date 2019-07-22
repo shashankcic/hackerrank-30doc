@@ -12,8 +12,11 @@ Be sure to use precise values for your calculations, or you may end up with an i
 ## Input Format
 
 There are **3** lines of numeric input: 
+
 The first line has a double, **_mealCost_** (the cost of the meal before tax and tip). 
+
 The second line has an integer, **_tipPercent_** (the percentage of **_mealCost_** being added as tip). 
+
 The third line has an integer, **_taxPercent_** (the percentage of **_mealCost_** being added as tax).
 
 ## Output Format
@@ -41,8 +44,11 @@ Given:
 
 Calculations: 
 **_tip_** **= 12 * (20/100) = 2.4**
+
 **_tax_** **= 12 * (8/100) = 0.96**
+
 **_totalCost = mealCost + tip + tax_** **= 12 + 2.4 + 0.96 = 15.36**
+
 **_round(totalCost)_** **= 15** 
  
 
