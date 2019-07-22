@@ -7,9 +7,13 @@ In this challenge, we're getting started with conditional statements. Check out 
 Given an integer, **_n_**, perform the following conditional actions:
 
 If **_n_** is odd, print ```Weird```
+
 If **_n_** is even and in the inclusive range of **2** to **5**, print ```Not Weird```
+
 If **_n_** is even and in the inclusive range of **6** to **20**, print ```Weird```
+
 If **_n_** is even and greater than **20**, print ```Not Weird```
+
 Complete the stub code provided in your editor to print whether or not **_n_** is weird.
 
 ## Input Format
