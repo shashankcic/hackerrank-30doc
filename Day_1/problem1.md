@@ -20,7 +20,7 @@ Print the sum of **_d_** plus your double variable to a scale of one decimal pla
 
 Concatenate **_s_** with the string you read as input and print the result on a new line.
 
-## Note: 
+### Note: 
 If you are using a language that doesn't support using **+** for string concatenation (e.g.: C), you can just print one variable immediately following the other on the same line. The string provided in your editor must be printed first, immediately followed by the string you read as input.
 
 ## Input Format
