@@ -27,8 +27,8 @@ Input is handled for you by the stub code in the editor.
 The first line contains an integer, **_T_** (the number of test cases), and the **_T_** subsequent lines each contain an integer denoting the **_age_** of a Person instance.
 
 ## Constraints
-- **1 <=** **_T_** **<=4**
-- **-5 <=** **_age_** **<=30**
+- **1 <=** **_T_** **<= 4**
+- **-5 <=** **_age_** **<= 30**
 
 ## Output Format
 
