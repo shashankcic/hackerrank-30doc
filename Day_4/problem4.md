@@ -75,7 +75,7 @@ Because **_initialAge_** **< 13**, our code should print that the person is youn
 
 Test Case 2: **_initialAge_** **= 16**
 
-Because , **13 <=** **_initialAge_** **< 18** our code should print that the person is a teenager. Three years pass and **_age_** **= 19**, so we print that the person is old.
+Because **13 <=** **_initialAge_** **< 18**, our code should print that the person is a teenager. Three years pass and **_age_** **= 19**, so we print that the person is old.
 
 
 Test Case 3: **_initialAge_** **= 18**
