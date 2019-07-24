@@ -10,7 +10,7 @@ To complete this challenge, you must save a line of input from stdin to a variab
 
 You've got this!
 
-## Note: 
+### Note: 
 The instructions are Java-based, but we support submissions in many popular languages. You can switch languages using the drop-down menu above your editor, and the **_inputstring_** variable may be written differently depending on the best-practice conventions of your submission language.
 
 ## Input Format
