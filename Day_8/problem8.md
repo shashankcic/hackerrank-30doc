@@ -21,9 +21,9 @@ After the **_n_** lines of phone book entries, there are an unknown number of li
 Names consist of lowercase English alphabetic letters and are first names only.
 
 ## Constraints
-- **1 <=** **_n_** **<= 10<sup>5</sup>**
+- **1 <= _n_ <= 10<sup>5</sup>**
 
-- **1 <=** **_queries_** **<= 10<sup>5</sup>**
+- **1 <= _queries_ <= 10<sup>5</sup>**
 
 ## Output Format
 
@@ -51,9 +51,9 @@ harry=12299933
 
 ## Explanation
 
-We add the following **_n_** **= 3** (Key,Value) pairs to our map so it looks like this:
+We add the following **_n_ = 3** (Key,Value) pairs to our map so it looks like this:
 
-**_phoneBook_** **=** **_{(sam,_** **99912222),** **_(tom,_** **11122222),** **_(harry,_** **12299933)}**
+**_phoneBook_ = {(_sam_,99912222),(_tom_,11122222),(_harry_,12299933)}**
 
 We then process each query and print ```key=value``` if the queried **_key_** is found in the map; otherwise, we print ```Not found```.
 
