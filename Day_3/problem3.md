@@ -21,7 +21,7 @@ Complete the stub code provided in your editor to print whether or not **_n_** i
 A single line containing a positive integer, **_n_**.
 
 ## Constraints
-**1 <=** **_n_** **<= 100**
+**1 <= _n_ <= 100**
 
 ## Output Format
 
@@ -53,10 +53,10 @@ Not Weird
 
 ## Explanation
 
-Sample Case 0: **_n_** **= 3** 
+Sample Case 0: **_n_ = 3** 
 
 **_n_** is odd and odd numbers are weird, so we print ```Weird```.
 
-Sample Case 1:  **_n_** **= 24**
+Sample Case 1:  **_n_ = 24**
 
-**_n_** **> 20** and **_n_** is even, so it isn't weird. Thus, we print ```Not Weird```.
+**_n_ > 20** and **_n_** is even, so it isn't weird. Thus, we print ```Not Weird```.

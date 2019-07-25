@@ -14,9 +14,10 @@ The second line contains **_N_** space-separated integers describing array **_A_
 
 ## Constraints
 
-- **1 <=** **_N_** **<= 1000**
-- **1 <=** **_A<sub>i</sub>_** **<= 10000**, where **_A<sub>i</sub>_** is the **_i<sup>th</sup>_** integer in the array.
-Output Format
+- **1 <= _N_ <= 1000**
+- **1 <= _A<sub>i</sub>_ <= 10000**, where **_A<sub>i</sub>_** is the **_i<sup>th</sup>_** integer in the array.
+
+## Output Format
 
 Print the elements of array **_A_** in reverse order as a single line of space-separated numbers.
 

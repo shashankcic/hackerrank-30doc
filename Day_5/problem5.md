@@ -4,7 +4,7 @@
 In this challenge, we're going to use loops to help us do some simple math. Check out the Tutorial tab to learn more.
 
 ## Task 
-Given an integer, **_n_**, print its first **10** multiples. Each multiple **_n * i_** (where **1 <=** **_i_** **<= 10**) should be printed on a new line in the form: ```n x i = result```.
+Given an integer, **_n_**, print its first **10** multiples. Each multiple **_n * i_** (where **1 <= _i_ <= 10**) should be printed on a new line in the form: ```n x i = result```.
 
 ## Input Format
 
@@ -12,11 +12,11 @@ A single integer, **_n_**.
 
 ## Constraints
 
-- **2 <=** **_n_** **<= 20**
+- **2 <= _n_ <= 20**
 
 ## Output Format
 
-Print **10** lines of output; each line **_i_** (where **1 <=** **_i_** **<= 10**) contains the **_result_** of **_n * i_** in the form: 
+Print **10** lines of output; each line **_i_** (where **1 <= _i_ <= 10**) contains the **_result_** of **_n * i_** in the form: 
 ```bash
 n x i = result.
 ```

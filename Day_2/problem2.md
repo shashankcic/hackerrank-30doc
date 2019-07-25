@@ -40,16 +40,16 @@ Print the total meal cost, where **_totalCost_** is the rounded integer result o
 ## Explanation
 
 Given: 
-**_mealCost_** **= 12**, **_tipPercent_** **= 20**, **_taxPercent_** **= 8**
+**_mealCost_ = 12, _tipPercent_ = 20, _taxPercent_ = 8**
 
 Calculations: 
-**_tip_** **= 12 * (20/100) = 2.4**
+**_tip_ = 12 * (20/100) = 2.4**
 
-**_tax_** **= 12 * (8/100) = 0.96**
+**_tax_ = 12 * (8/100) = 0.96**
 
-**_totalCost = mealCost + tip + tax_** **= 12 + 2.4 + 0.96 = 15.36**
+**_totalCost = mealCost + tip + tax_ = 12 + 2.4 + 0.96 = 15.36**
 
-**_round(totalCost)_** **= 15** 
+**_round(totalCost)_ = 15** 
  
 
 We round **_totalCost_** to the nearest dollar (integer) and then print our result, **15**.

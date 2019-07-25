@@ -4,8 +4,9 @@
 Today, we're learning and practicing an algorithmic concept called Recursion. Check out the Tutorial tab for learning materials and an instructional video!
 
 ## Recursive Method for Calculating Factorial 
-**_factorial(N)_** **= {1	,_N_ <= 1**
-**_factorial(N)_** **= {_N_ x _factorial(N_ - 1)	,_otherwise_**
+**_factorial_(_N_) = {1	, _N_ <= 1**
+
+**_factorial_(_N_) = {_N_ x _factorial_(_N_ - 1)	,_otherwise_**
 
 
 ## Task 
@@ -19,7 +20,7 @@ If you fail to use recursion or fail to name your recursive function factorial o
 A single integer, **_N_** (the argument to pass to factorial).
 
 ## Constraints
-- **2 <=** **_N_** **<= 12**
+- **2 <= _N_ <= 12**
 - Your submission must contain a recursive function named factorial.
 
 ## Output Format

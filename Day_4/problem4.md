@@ -9,9 +9,9 @@ Write a Person class with an instance variable, **_age_**, and a constructor tha
 1. yearPasses() should increase the **_age_** instance variable by **1**.
 2. amIOld() should perform the following conditional actions:
 
-If **_age_** **< 13**, print ```You are young.```.
+If **_age_ < 13**, print ```You are young.```.
 
-If **_age_** **>= 13** and **_age_** **< 18**, print ```You are a teenager.```.
+If **_age_ >= 13** and **_age_ < 18**, print ```You are a teenager.```.
 
 Otherwise, print ```You are old.```.
 
@@ -27,8 +27,8 @@ Input is handled for you by the stub code in the editor.
 The first line contains an integer, **_T_** (the number of test cases), and the **_T_** subsequent lines each contain an integer denoting the **_age_** of a Person instance.
 
 ## Constraints
-- **1 <=** **_T_** **<= 4**
-- **-5 <=** **_age_** **<= 30**
+- **1 <= _T_ <= 4**
+- **-5 <= _age_ <= 30**
 
 ## Output Format
 
@@ -63,23 +63,23 @@ You are old.
 
 ## Explanation
 
-Test Case 0: **_initialAge_** **= -1**
+Test Case 0: **_initialAge_ = -1**
 
-Because **_initialAge_** **< 0**, our code must set **_age_** to **0** and print the "Age is not valid..." message followed by the young message. Three years pass and **_age_** **= 3**, so we print the young message again.
-
-
-Test Case 1:  **_initialAge_** **= 10**
-
-Because **_initialAge_** **< 13**, our code should print that the person is young. Three years pass and **_age_** **= 19**, so we print that the person is now a teenager.
+Because **_initialAge_ < 0**, our code must set **_age_** to **0** and print the "Age is not valid..." message followed by the young message. Three years pass and **_age_ = 3**, so we print the young message again.
 
 
-Test Case 2: **_initialAge_** **= 16**
+Test Case 1:  **_initialAge_ = 10**
+
+Because **_initialAge_ < 13**, our code should print that the person is young. Three years pass and **_age_ = 19**, so we print that the person is now a teenager.
+
+
+Test Case 2: **_initialAge_ = 16**
 
 Because **13 <=** **_initialAge_** **< 18**, our code should print that the person is a teenager. Three years pass and **_age_** **= 19**, so we print that the person is old.
 
 
-Test Case 3: **_initialAge_** **= 18**
+Test Case 3: **_initialAge_ = 18**
 
-Because **_initialAge_** **>= 18**, our code should print that the person is old. Three years pass and the person is still old at **_age_** **= 21**, so we print the old message again.
+Because **_initialAge_ >= 18**, our code should print that the person is old. Three years pass and the person is still old at **_age_ = 21**, so we print the old message again.
 
 **The extra line at the end of the output is supposed to be there and is trimmed before being compared against the test case's expected output. If you're failing this challenge, check your logic and review your print statements for spelling errors.**
